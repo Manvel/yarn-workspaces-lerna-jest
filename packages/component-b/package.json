@@ -1,0 +1,9 @@
+{
+  "name": "component-b",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "index.js",
+  "devDependencies": {
+    "component-a": "^1.0.0"
+  }
+}
