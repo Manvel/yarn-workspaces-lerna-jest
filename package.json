@@ -2,11 +2,14 @@
   "name": "yarn-workspaces-lerna-jest",
   "version": "1.0.0",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "lerna run test"
   },
   "private": true,
   "workspaces": [
     "packages/*"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
 }
