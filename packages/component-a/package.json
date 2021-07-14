@@ -4,6 +4,10 @@
   "license": "MIT",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Testing component-a\""
+    "test": "echo \"Testing component-a\"",
+    "test:jest": "test-engine"
+  },
+  "dependencies": {
+    "test-engine": "^0.1.0"
   }
 }

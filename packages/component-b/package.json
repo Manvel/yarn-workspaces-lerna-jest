@@ -7,6 +7,10 @@
     "component-a": "^1.0.0"
   },
   "scripts": {
-    "test": "echo \"Testing component-b\""
+    "test": "echo \"Testing component-b\"",
+    "test:jest": "test-engine"
+  },
+  "dependencies": {
+    "test-engine": "^0.1.0"
   }
 }
